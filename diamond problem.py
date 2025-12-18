@@ -1,3 +1,10 @@
+
+        A
+       / \
+      B   C
+       \ /
+        D
+
 from abc import ABC, abstractmethod
 
 # ---------- Step 1: Abstract Base Class A ----------
@@ -50,3 +57,4 @@ class D(A):
 if __name__ == "__main__":
     d = D()
     print(d.foo())
+
